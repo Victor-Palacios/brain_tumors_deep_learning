@@ -1,4 +1,4 @@
-# Detecting Brain Tumors with Deep Learning
+# Detecting Brain Tumor Biomarkers with Deep Learning
 
 ----
 Project Description

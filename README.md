@@ -4,7 +4,7 @@
 Project Description
 ----
 
-This repository is about using deep learning to detect tumors in the brain.
+This repository is about using deep learning to detect a tumor biomarker in the brain.
 This is repo is for a kaggle competition: https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification
 
 ----

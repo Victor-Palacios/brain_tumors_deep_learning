@@ -17,7 +17,7 @@ Importance
 Outcome
 ----
 
-1. A deep learning model to detect tumors.
+1. A deep learning model to detect the brain tumor biomarker MGMT.
 
 ----
 About Us

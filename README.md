@@ -22,6 +22,8 @@ In the dataset, there are MRI images with different modalities, orientations and
 
 #### For 2D Modeling:
 
+All T1w axial images were resized to one-channel (256,256) shape to put through the model. We chose to use only the middle slice which presumably would be of the highest quality image for prediction.
+
 #### For 3D Modeling:
 
 All T1w axial images were resized to one-channel (50,256,256) shape to put through the model. For images with less than or more than 50 slices, each array was either padded or cropped symmetrically.
@@ -32,6 +34,8 @@ Modeling
 ----
 
 #### 2D Modeling:
+
+For 2D Modeling, a pretrained Alexnet model was used to serve as a baseline. Max accuracy reached after training is 58% on the training set regardless of whether we trained for 10 epochs or 100 epochs.
 
 #### 3D Modeling:
 
@@ -48,6 +52,10 @@ Outcome
 - There were some issues with the code versioning on kaggle's online notebooks.
 
 #### What went right?
+
+- The Alexnet model was fast to train and gave better accuracy with the same number of epochs as the 3D model.
+- We were able to extract all the relevant metadata from the dicom files.
+- We learned about the different ways participant brain data is processed.
 
 ----
 Next Steps
